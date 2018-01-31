@@ -43,11 +43,11 @@ class queue
 	}
 	
 	//function to dequeue an element
-	/* In this function , the FIFO property of stack is used
+	/* In this function , the LIFO property of stack is used
 	   The stack 1 is copied in reverse into stack 2
 	   The top2 element of stack 2 is removed
 	   Now The stack 2 is copied in reverse into stack 1
-	   This now corresponds to the LIFO property of Queue
+	   This now corresponds to the FIFO property of Queue
 	   Thus the dequeue operation has been implemented by using stacks*/
 	void dequeue()
 	{
