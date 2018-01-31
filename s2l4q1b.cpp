@@ -74,6 +74,25 @@ int main() {
 	QueueLL a;
 	int choice, val,again;
             cout<<"\n:: Queue using Array ::\n";
+	      cout<<"\n Do you have the initial elements to be queued? 1. Yes 2. No";
+            cin>>choice;
+            switch(choice)
+            {
+            	case 1: cout<<"\n Enter the number of elements to be queued ";
+            	        cin>>num;
+            	        cout<<"\n Enter the values";
+            	        for(int i=0;i<num;i++)
+            	        {
+            	        	cin>>val;
+            	        	a.enqueue(val);
+            	        }
+            	        a.display();
+            	        break;
+            	 case 2:cout<<"\n Please Proceed!";
+            	        break;
+            	 default:cout<<"\n wrong info!!";
+            	 break;
+            }
             do{
             cout<<"\n--->OPTIONS<---\n";
             cout<<"1. EnQueue\n2. DeQueue\n ";
