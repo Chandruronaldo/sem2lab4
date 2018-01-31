@@ -80,26 +80,7 @@ int main() {
 	StackLL a;
 	int choice, val,again;
             cout<<"\n:: Stack using Linked List ::\n";
-	  cout<<"\n Do you have the initial elements to stacked? 1. Yes 2. No";
-            cin>>choice;
-            switch(choice)
-            {
-            	case 1: cout<<"\n Enter the number of elements to be stacked ";
-            	        cin>>num;
-            	        cout<<"\n Enter the values";
-            	        for(int i=0;i<num;i++)
-            	        {
-            	        	cin>>val;
-            	        	a.push(val);
-            	        }
-            	        a.display();
-            	        break;
-            	 case 2:cout<<"\n Please Proceed!";
-            	        break;
-            	 default:cout<<"\n wrong info!!";
-            	 break;
-            }
-            do{
+	    do{
             cout<<"\n--->OPTIONS<---\n";
             cout<<"1. Push\n2. Pop\n";
             cout<<"Enter your choice: ";
